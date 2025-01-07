@@ -1,3 +1,5 @@
-$(document).getElementById('form');
+const section = document.getElementById('tabela-de-contatos');
 
-const nomeContato = ('nome').submit('');
+
+
+
