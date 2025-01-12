@@ -5,4 +5,3 @@ const tabelaDeContatos = document.getElementById('tabela-de-contatos');
 
 
 
-
