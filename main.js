@@ -1,4 +1,3 @@
-const dados = document.getElementsByClassName('input');
-
-
+document.getElementsByClassName('contato-form')
+document.getElementsByClassName('container');
 
