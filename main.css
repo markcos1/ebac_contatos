@@ -14,6 +14,9 @@ body{
     background-color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
 }
+.container{
+    height: 100%;
+}
 form{
     display: flex;
     align-items: center;
@@ -26,12 +29,19 @@ label, input{
     margin-left: 30px;
 }
 button{
+    margin-bottom: 9px;
+    margin-left: 5px;
+    padding: 2px;
+    font-weight: bold;
     cursor: pointer;
     
 }
 section{
     margin-bottom: 60px;
 }
-.area-contato{
-    margin-bottom: 95px;
+section li{
+    margin-bottom: 80px;
+}
+.area-contato p{
+    margin-bottom: 30px;
 }
