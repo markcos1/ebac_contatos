@@ -45,3 +45,6 @@ section li{
 .area-contato p{
     margin-bottom: 30px;
 }
+img{
+    display: none;
+}
