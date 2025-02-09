@@ -25,7 +25,7 @@ form{
     align-items: center;
     justify-content: center;
 }
-label, input{
+input{
     display: inline;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -38,12 +38,6 @@ button{
     font-weight: bold;
     cursor: pointer;
     
-}
-section{
-    margin-bottom: 60px;
-}
-section li{
-    margin-bottom: 80px;
 }
 img{
     width: 200px ;

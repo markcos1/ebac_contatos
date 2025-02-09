@@ -10,24 +10,26 @@
 <header>
     <h1>Contatos</h1>
 </header>
-<body>
-    <div class="container">
+<body class="container">
     <form id="contato-form">
         <input type="text" required id="nome" placeholder="Nome do contato">
         <input type="tel" required id="telefone" placeholder="Número do contato">
         <button type="submit" id="botao">Adicionar</button>
     </form>
-    <section>
-    <ul>
-        <li>
-            <div class="area-contato">
-                <img src="./Screenshot 2024-11-15 at 20-50-06 Aplique efeitos e animações — EBAC LMS.png" id="imagem">
-                <p id="nome-contato"></p>
-            </div>
-        </li>
-    </ul>
-    </section>
-    </div>
+    <table>
+        <thead></thead>
+
+        <tbody>
+            <tr>
+                <td class="area-contato">
+                    <img src="./Screenshot 2024-11-15 at 20-50-06 Aplique efeitos e animações — EBAC LMS.png" id="imagem">
+                    <p id="nome-contato"></p>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot></tfoot>
+    </table>
     <script src="./main.js"></script>
 </body>
 </html>
