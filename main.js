@@ -1,5 +1,4 @@
 const form = document.getElementById('contato-form');
-const imgContato = `<img src="./Screenshot 2024-11-15 at 20-50-06 Aplique efeitos e animações — EBAC LMS.png" id="imagem" >`;
 const nome = [];
 const telefone = [];
 
@@ -14,18 +13,16 @@ form.addEventListener('submit', function(e){
 
 function adicionaLinha() {
     
-    const imagemDoContato = document.querySelector('img');
     const inputNomeDoContato = document.getElementById('nome');
     const inputNumeroDoContato = document.getElementById('telefone');
 
     nome.push(inputNomeDoContato.value);
     telefone.push(inputNumeroDoContato.value);
 
-    let linha = '<p>';
-    linha += `<p>${imagemDoContato.value}</p>`
-    linha += `<p>${inputNomeDoContato.value}</p>`;
-    linha += `<p>${inputNumeroDoContato.value}</p>`;
-    linha += '</p>'
+    let linha = '<td>';
+    linha += `<td>${inputNomeDoContato.value}</td>`;
+    linha += `<td>${inputNumeroDoContato.value}</td>`;
+    linha += '</td>'
 
     linhas += linha;
 
@@ -36,7 +33,7 @@ function adicionaLinha() {
 
 function atualizaTabela() {
     
-    const corpoContato = document.querySelector('p');
+    const corpoContato = document.querySelector('td');
     corpoContato.innerHTML = linhas;
 }
 
