@@ -19,10 +19,10 @@ function adicionaLinha() {
     nome.push(inputNomeDoContato.value);
     telefone.push(inputNumeroDoContato.value);
 
-    let linha = '<td>';
+    let linha = '<tr>';
     linha += `<td>${inputNomeDoContato.value}</td>`;
     linha += `<td>${inputNumeroDoContato.value}</td>`;
-    linha += '</td>'
+    linha += '</tr>'
 
     linhas += linha;
 
@@ -33,7 +33,7 @@ function adicionaLinha() {
 
 function atualizaTabela() {
     
-    const corpoContato = document.querySelector('td');
+    const corpoContato = document.querySelector('tbody');
     corpoContato.innerHTML = linhas;
 }
 
